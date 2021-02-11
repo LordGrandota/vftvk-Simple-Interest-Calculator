@@ -27,5 +27,5 @@ function compute() {
 function rangechange() {
   // Function called everytime the range changes
   range = document.getElementById('rate').value
-  document.getElementById('interest').innerHTML = range
+  document.getElementById('interest').innerHTML = range + '%'
 }
